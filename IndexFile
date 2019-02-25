@@ -1,0 +1,34 @@
+***********Index.php************8
+<?php
+$title = "Home";
+$content = '<img src="Images/car1.jpg" class="imgLeft" />
+<h3></h3>
+<p>
+    
+</p>
+
+<img src="Images/car2.jpg" class="imgRight"/>
+<h3>Parking Problems!!</h3>
+<p>
+    India is facing a new problem nowadays – lack of sufficient parking space. With families getting smaller and 
+	the total number of motor vehicles exceeding the total number of heads per family, the parking scenario is woefully 
+	falling short of the current requirements in the country. The situation is such that on any given working day
+	approximately 40% of the roads in urban India are taken up for just parking the cars. The problem has been further 
+	exacerbated by the fact that nowadays even people from low income group are able to own cars. The number of families
+	with cars has become much more than what the country is able to manage.
+</p>
+
+<img src="Images/car3.jpg" class="imgLeft" />
+<h3>Multilevel Parking</h3>
+<p>
+    The growing population of India has created many problems - one of the challenging ones being car parking which
+	we confront almost every day. Besides the problem of space for cars moving on the road, greater is the problem of space
+	for a parked vehicle considering that private vehicles remain parked for most of their time. Roads are being built for cars to ply
+	but are we also giving the vehicles enough space to park? While residential projects still escape with designated parking,
+	the real problem lie with commercial spaces - many a time which is overcome by taking extra open spaces to park. 
+
+</p>';
+
+include 'Template.php';
+?>
+
