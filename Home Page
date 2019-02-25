@@ -1,0 +1,35 @@
+************************Home Page File**********************************************************
+<!DOCTYPE html>
+<html>
+    <head>
+	<style>
+mark { 
+  background-color: yellow;
+  color: black;
+}
+</style>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title><?php echo $title; ?></title>
+        <link rel="stylesheet" type="text/css" href="Styles/Stylesheet.css" />
+    </head>
+    <body>
+        <div id="wrapper">
+            <nav id="navigation">
+                <ul id="nav">
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#">Log-In</a></li>
+                </ul>
+            </nav>
+            <div id="content_area">
+                <?php echo $content; ?>
+            </div>
+            
+            <div id="sidebar">
+			<mark><a href="#">"Want a Cab" !! Click Here.</a></mark><br><br>
+			<mark><a href="#2">Car Services !! Click Here.</a></mark><br><br>
+			</div>
+        </div>
+    </body>
+</html>
